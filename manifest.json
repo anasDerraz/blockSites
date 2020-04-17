@@ -1,0 +1,11 @@
+{
+  "name": "Block Site",
+  "version": "1.0",
+  "description": "Block access to blacklisted sites",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "permissions": ["http://*/*", "https://*/*"],
+  "manifest_version": 2
+}
